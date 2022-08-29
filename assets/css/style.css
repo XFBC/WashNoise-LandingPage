@@ -415,22 +415,23 @@ h6 {
 --------------------------------------------------------------*/
 #hero {
   width: 100%;
-  /* background-image: url('/assets/img/images/wash.2.png'); */
+  background-image: url('/assets/img/images/wash.2.png');
   position: relative;
   padding: 120px 0 0 0;
 }
 
 #hero:before {
   content: '';
-  background: #21252999;
+  background:   #212529f2;
   position: absolute;
   bottom: 0;
   top: 0;
   left: 0;
   right: 0;
-  background-image: url(/assets/img/images/wash.2.png);
+  background-image: url(https://scontent.fbel1-1.fna.fbcdn.net/v/t1.6435-9/142270641_10216008302839910_4610173872227036334_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=174925&_nc_eui2=AeGjxTvgHPuplUIHEHlJfiDaIA1byQnQrdkgDVvJCdCt2eCbWN9omqWXadTJ8m3BwZSXoI1BFxIybaDhGv1ptujo&_nc_ohc=xjw6OyH8IUAAX_42d9A&_nc_ht=scontent.fbel1-1.fna&oh=00_AT_1DSCpSjX_wHk10jOD99YcdcaYnZ9E9swOpVttBqI_Tw&oe=63317E49);
   width: 100vw;
   background-repeat: round;
+  background-size: cover;
   background-blend-mode: soft-light;
   
 }
@@ -438,7 +439,7 @@ h6 {
 @media screen and (max-width:575px) {
   #hero:before {
   
-    width: 161vw;
+    width: 200vw;
   
   }
 }
