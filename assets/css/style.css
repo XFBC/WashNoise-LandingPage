@@ -1782,3 +1782,101 @@ section {
 .faq-title {
   font-size: 24px !important;
 }
+
+
+/*--------------------------------------------------------------
+# Events
+--------------------------------------------------------------*/
+.events {
+  background: url(https://scontent.fbel1-1.fna.fbcdn.net/v/t39.30808-6/243065301_10217181055557995_1244269870928732282_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=730e14&_nc_eui2=AeGoA6EGTEEu00mCzTGaP3KyQu9VBIt915FC71UEi33Xkdv1MLhgsebCh8Ln6X9zafvJRC6zl2MflpvsyoSkgsNQ&_nc_ohc=sGVS19Ubk-MAX-2rglM&_nc_ht=scontent.fbel1-1.fna&oh=00_AT802PQn8KTI6RE-29yi-gTzd0FX4sjao0t166gqK1_--A&oe=631194E8) center center no-repeat;
+  background-size: cover;
+  position: relative;
+  background-attachment: fixed;
+  height: 40vw;
+
+}
+
+.events::before {
+  content: "";
+  background-color: rgba(0, 0, 0, 0.8);
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+}
+
+.events .section-title h2 {
+  color: #fff;
+}
+
+.events .container {
+  position: relative;
+}
+
+@media (min-width: 1024px) {
+  .events {
+    background-attachment: fixed;
+  }
+}
+
+.events .events-carousel {
+  background: rgba(255, 255, 255, 0.08);
+  padding: 30px;
+}
+
+.events .event-item {
+  color: #fff;
+}
+
+.events .event-item h3 {
+  font-weight: 600;
+  font-size: 26px;
+  color: #cda45e;
+}
+
+.events .event-item .price {
+  font-size: 26px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.events .event-item .price span {
+  border-bottom: 2px solid #cda45e;
+}
+
+.events .event-item ul {
+  list-style: none;
+  padding: 0;
+}
+
+.events .event-item ul li {
+  padding-bottom: 10px;
+}
+
+.events .event-item ul i {
+  font-size: 20px;
+  padding-right: 4px;
+  color: #cda45e;
+}
+
+.events .event-item p:last-child {
+  margin-bottom: 0;
+}
+
+.events .swiper-pagination {
+  margin-top: 30px;
+  position: relative;
+}
+
+.events .swiper-pagination .swiper-pagination-bullet {
+  width: 12px;
+  height: 12px;
+  background-color: rgba(255, 255, 255, 0.4);
+  opacity: 1;
+}
+
+.events .swiper-pagination .swiper-pagination-bullet-active {
+  background-color: #cda45e;
+}
