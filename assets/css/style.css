@@ -415,7 +415,7 @@ h6 {
 --------------------------------------------------------------*/
 #hero {
   width: 100%;
-  background-image: url('/assets/img/images/wash.2.png');
+  /* background-image: url('/assets/img/images/wash.2.png'); */
   position: relative;
   padding: 120px 0 0 0;
 }
@@ -428,7 +428,7 @@ h6 {
   top: 0;
   left: 0;
   right: 0;
-  /* background-image: url('/assets/img/images/wash.2.png'); */
+  background-image: url(/assets/img/images/wash.2.png);
   width: 100vw;
   background-repeat: round;
   background-blend-mode: soft-light;
